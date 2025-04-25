@@ -16,7 +16,7 @@ export default function Services() {
 
   return (
     <div className="dark:bg-gray-700 dark:text-white p-5">
-      <h1 className="text-2xl font-bold">Services</h1>
+      <h1 className="text-2xl font-bold mb-2">Services</h1>
       <div className="border border-gray-500 rounded p-5">
         <ul>
           {state.map((user, index) => {
